@@ -13,4 +13,4 @@ def maxprofit(price, profit):
                if price[i] < price[j] < price[k]:
                    maximum = max(maximum, profit[i] + profit[j] + profit[k])
     return maximum
-print(maxprofit([0, 6, 7, 9, 8], [45, 67, 38, 29, 90]))
+print(maxprofit([0, 6, 7, 9, 8], [45, 67, 38, 29, 90]))   

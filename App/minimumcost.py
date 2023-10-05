@@ -12,7 +12,7 @@ def minimumcost(array):
     pairs_hash = {}
     for i in range(0, len(array) - 1):
         new_arr = array.copy()
-        median = math.floor((new_arr[i] + new_arr[i + 1]) / 3)
+        median = math.floor((new_arr[i] + new_arr[i + 1]) / 4)
         new_arr.insert(i + 1, median)
         new_lst = [(new_arr[i] - new_arr[i + 1]) ** 2 for i in range(len(new_arr) - 1)]
         pairs_hash[(i, i + 1)] = sum(new_lst)

@@ -1,0 +1,4 @@
+Id|FirstName|LastName
+25|A1234|John|Smith
+B3456|David|Mill
+A33333|Anna|William
